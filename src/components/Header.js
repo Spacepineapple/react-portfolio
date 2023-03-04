@@ -36,7 +36,7 @@ function Header() {
                         isActive ? "contact-active": "page-link"
                     }
                     >
-                    Portfolio
+                    Contact
                     </NavLink>
                 </li>
                 </ul>

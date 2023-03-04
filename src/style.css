@@ -7,19 +7,20 @@
     --heading-colour: #BBE1FA;
 }
 
-article {
-    display: grid;
-    grid-template-rows: 0.1fr 0.1fr 5fr 0.1fr 0.1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "about"
-        "skills"
-        "portfolio"
-        "research"
-        "contact";
-    margin-top: 0;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 85vh;
+    /*
     padding-left: 12.5vw;
     padding-right: 12.5vw;
+    */
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
 }
 
 .navbar {
@@ -34,8 +35,13 @@ body {
     margin: 0 0 0 0;
 }
 
-footer {
+header {
+    flex: 0 0 10vh;
+    height: 100%;
+}
 
+footer {
+    flex: 0 0 5vh;
     color: var(--quarternary-colour);
     text-align: center;
 }
@@ -82,7 +88,6 @@ nav ul{
 nav li {
     border-width: 2px;
     border-color: var(--quarternary-colour);
-    height: 2rem;
     margin-right: 2vw;
     display: flex;
     align-items: center;
