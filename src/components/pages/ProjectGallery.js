@@ -1,11 +1,14 @@
 import React from "react";
+import PortfolioProject from "../PortfolioProject";
+import projects from "../projects.json";
 
 function ProjectGallery() {
+    console.log(projects);
     return (
         <main>
             <section>
                 <h1>Project Gallery</h1>
-                <p>This is a gallery of my portfolio projects</p>
+                {projects.map(project => <PortfolioProject key={project.id} props={project}/>)}
             </section>
         </main>
     );

@@ -1,47 +1,53 @@
 [
     {
+        "id": "1",
         "name": "InfoTravel Travel Information",
-        "image": "pending",
+        "image": "/images/InfoTravel.png",
         "description": "InfoTravel was designed and built as a group project as part of an edX Front End Web Development bootcamp. It is a travel information service that allows users to get all of the information they need about travel destinations with a single search. Using existing free API services, Infotravel dynamically gathers and renders information including currency exchange details, local news, sightseeing opportunities, weather and other useful data such as local language.",
         "technologies": "HTML, CSS, JavaScript, BootStrap",
         "deployed": "https://spacepineapple.github.io/infotravel-travel-information/",
         "repository": "https://github.com/Spacepineapple/infotravel-travel-information"
     },
     {
+        "id": "2",
         "name": "Snake",
-        "image": "pending",
+        "image": "/images/SchedulePlanner.png",
         "description": "A complete and playable snake game built in Python using the Turtle Graphics package. Scores by writing to and reading from a text file. The player must collect the food while ensuring the snake does not touch the edges of the window and also does not cause any part of the snake to touch any other part.",
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
         "repository": "URL goes here"
     },
     {
+        "id": "3",
         "name": "FlashCard App",
-        "image": "pending",
+        "image": "/images/SchedulePlanner.png",
         "description": "A flashcard application to help the user learn a language. The app takes a CSV file containing text in the target language and the user's own language. A word in the target language is then chosen at random and shown to the user who can use three buttons -- one to flip the card between the target language and their own language, one to save the word for the future and another to remove it from the CSV file after they have learnt it.",
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
         "repository": "URL goes here"    
     },
     {
+        "id": "4",
         "name": "Cohort Tracker",
-        "image": "pending",
+        "image": "/images/SchedulePlanner.png",
         "description": "A webapp built in Rust to allow me to keep track of my apprentices.",
         "technologies": "Rust (Yew, ActixWeb)",
         "deployed": "Since apprentice data is sensitive, this app is not intended for deployment. It can however, be downloaded and run from the repository",
         "repository": "URL goes here"
     },
     {
+        "id": "5",
         "name": "Password Generator",
-        "image": "pending",
+        "image": "/images/PasswordGenerator.png",
         "description": "This is a password generator app. The user is able to select parameters for the generated password including the number of characters, as well as types of character from options including upper and lower case characters, numbers and special characters. A randomised password will then be generated and can easily be copied by clicking within the window. If the user fails to select character types for inclusion or does not select a valid length, no password will be generated and the user will be prompted to select again.",
         "technologies": "HTML, CSS, JavaScript, BootStrap",
         "deployed": "https://spacepineapple.github.io/password-generator/",
         "repository": "https://github.com/Spacepineapple/password-generator"
     },
     {
+        "id": "6",
         "name": "Daily Schedule Planner",
-        "image": "pending",
+        "image": "/images/SchedulePlanner.png",
         "description": "This is a daily schedule planner for the working day that stores scheduled events in local storage to ensure persistent scheduling. The planner uses moment.js to capture the date on which the user opens the scheduler and uses colour coding to identify which hourly periods have already occurred on that day with past blocks in grey, the current block in red and future blocks in green.",
         "technologies": "HTML, CSS, JavaScript, BootStrap",
         "deployed": "https://spacepineapple.github.io/daily-schedule-planner/",
