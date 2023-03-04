@@ -8,7 +8,9 @@ function ProjectGallery() {
         <main>
             <section>
                 <h1>Project Gallery</h1>
-                {projects.map(project => <PortfolioProject key={project.id} props={project}/>)}
+                <div className="projects">
+                    {projects.map(project => <PortfolioProject key={project.id} props={project}/>)}
+                </div>
             </section>
         </main>
     );

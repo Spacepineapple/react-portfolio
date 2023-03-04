@@ -23,6 +23,25 @@ main {
     flex-flow: column;
 }
 
+.portfolio-project {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border: 2px solid var(--tertiary-colour);
+}
+
+.project-image {
+    height: 10vh;
+    width: 10vh;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row;
+}
+
 .navbar {
     background-color: var(--primary-colour);
 }
