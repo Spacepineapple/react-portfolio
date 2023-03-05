@@ -28,11 +28,11 @@
     },
     {
         "id": "4",
-        "name": "Cohort Tracker",
+        "name": "Pong",
         "image": "/react-portfolio/images/SchedulePlanner.png",
-        "description": "A webapp built in Rust to allow me to keep track of my apprentices.",
-        "technologies": "Rust (Yew, ActixWeb)",
-        "deployed": "Since apprentice data is sensitive, this app is not intended for deployment. It can however, be downloaded and run from the repository",
+        "description": "A playable implementation of the classic game Pong built in Rust. The game responds to key presses and supports two players with one using the arrow keys and the other using the w and s keys.",
+        "technologies": "Python",
+        "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
         "repository": "URL goes here"
     },
     {

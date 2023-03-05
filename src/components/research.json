@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Participatory Science Toolkit Against Pollution",
+        "type": "Report",
+        "authors": "Gefion Thuermer, Neal Reeves, Ilaria Baroni, Damiano Scandolari, Mario Scrocca, Roy van Grunsven, Eddy Maddalena, Elena Simperl, Kat Austen, Franz Hoelker, Sybille Schroer, Sonja Grossberndt, Dumitru Roman, Antonella Passani, Katja Firus, Rafael Gonzalez Fuentetaja, Esteban González Guardia, Oscar Corcho",
+        "abstract": "The ACTION toolkit is the ultimate resource collection for everyone interested in doing citizen science the ACTION way. The toolkit draws on expertise in citizen science, participatory design, social innovation, socio-economic studies, pollution, open science, social computing, open data and software development in the ACTION team, to ensure it suits the requirements of citizen science projects, addressing the practical problems that they face throughout the different stages of each project.",
+        "year": 2022
+    },
+    {
+        "id": 2,
+        "title": "An analysis of pollution Citizen Science projects from the perspective of Data Science and Open Science",
+        "type": "Journal Paper",
+        "authors": "Dumitru Roman, Neal Reeves, Esteban Gonzalez, Irene Celino, Shady Abd El Kader, Philip Turk, Ahmet Soylu, Oscar Corcho, Raquel Cedazo, Gloria Re Calegari, Damiano Scandolari, Elena Simperl",
+        "abstract": "Citizen Science – public participation in scientific projects – is becoming a global practice engaging volunteer participants, often non-scientists, with scientific research. Citizen Science is facing major challenges, such as quality and consistency, to reap open the full potential of its outputs and outcomes, including data, software, and results. In this context, the principles put forth by Data Science and Open Science domains are essential for alleviating these challenges, which have been addressed at length in these domains. The purpose of this study is to explore the extent to which Citizen Science initiatives capitalise on Data Science and Open Science principles.",
+        "year": 2021
+    },
+    {
+        "id": 3,
+        "title": "Crowdsourcing and Human-in-the-Loop for IoT",
+        "type": "Book Chapter",
+        "authors": "Luis-Daniel Ibáñez, Neal Reeves, and Elena Simperl",
+        "abstract": "In this chapter we first introduce crowdsourcing (Section 2) and human-in-the-loop (Section 3), two related approaches for realising these three use cases and devise data science pipelines that seamlessly combine machine with human and collective intelligence. We then discuss two instances of crowdsourcing for location data: spatial crowdsourcing (Section 4), and citizen sensing (Section 5), which are particularly relevant in a smart city context",
+        "year": 2020
+    },
+    {
+        "id": 4,
+        "title": "Sociality, Community and Productivity in Virtual Citizen Science",
+        "type": "Thesis",
+        "authors": "Neal Reeves",
+        "abstract": "Virtual Citizen Science describes web-based crowdsourcing activities which recruit volunteers to complete microtasks for scientific research. VCS methodologies have been applied to diverse research challenges, from identifying neurons in MRI-scan images of the optic nerve, to morphologically classifying images of galaxies. Initiatives generally rely on participants’ intrinsic motivations to encourage contributions, but increasingly designers are turning to additional mechanisms including the use of online community features and discussion platforms such as forums. However, the influence of these features on participant engagement are still poorly understood. Drawing on a pragmatist, mixed-methods approach, this thesis explores the relationship between these social features within task and discussion elements of projects, to understand the influence of such features on volunteer productivity and project efficiency. A literature review of five transdisciplinary databases was conducted to identify design principles, motivations and social features associated with VCS approaches. This was then followed with a review of 48 VCS projects, to better understand the online community features within current VCS initiatives. To understand and clarify these findings, interviews were conducted with six members of the EyeWire project design team. Analysis of competitions in EyeWire demonstrated a relationship between task sociality and increased productivity and activity within the project. Finally, an analysis of two high-pressure VCS projects explores how periods of heavy productivity affect discussion activity. This research contributes to the understanding of motivational factors and design affordances within Virtual Citizen Science and similar crowdsourcing initiatives",
+        "year": 2019
+    },
+    {
+        "id": 5,
+        "title": "Efficient, but effective? Volunteer engagement in short-term virtual citizen science projects",
+        "type": "Journal Paper",
+        "authors": "Neal Reeves and Elena Simperl",
+        "abstract": "Virtual citizen science (VCS) projects have proven to be a highly effective method to analyse large quantities of data for scientific research purposes. Yet if these projects are to achieve their goals, they must attract and maintain the interest of sufficient numbers of active, dedicated volunteers. Although CSCW and HCI research has typically focussed on designing platforms to support long-term engagement, in recent years a new project format has been trialled -- using short-term crowdsourcing activities lasting as little as 48 hours. In this paper, we explore two short-term projects to understand how they influence participant engagement in the task and discussion elements of VCS. We calculate descriptive statistics to characterise project participants. Additionally, using calculation of correlation coefficients and hypothesis testing, we identify factors influencing volunteer task engagement and the effect this has on project outcomes. Our findings contribute to the understanding of volunteer engagement in VCS.",
+        "year": 2019
+    },
+    {
+        "id": 6,
+        "title": "“A Game Without Competition Is Hardly a Game”: The Impact of Competitions on Player Activity in a Human Computation game",
+        "type": "Conference Paper",
+        "authors": "Neal Reeves, Peter West and Elena Simperl",
+        "abstract": "Virtual citizen science (VCS) projects enable new forms of scientific research using crowdsourcing and human computation to gather and analyse large-scale datasets. To attract and sustain the number of participants and levels of participation necessary to achieve research aims, some VCS projects have introduced game elements such as competitions to tasks. However, we still know very little about how some game elements, particularly competitions, influence participation rates. To investigate the impact of game elements on player engagement, we conducted a two-part mixed-methods study of EyeWire, a VCS game. First, we interviewed EyeWire designers to understand their rationale for introducing competitions. Guided by their answers, we analysed two datasets of EyeWire user task contributions and chat logs to assess the effectiveness of competitions in achieving designers’ goals. Our findings contribute to the growing understanding of how competitions influence participant activity in human computation initiatives and socio-technical systems such as VCS.",
+        "year": 2018
+    },
+    {
+        "id": 7,
+        "title": "Is Virtual Citizen Science a Game?",
+        "type": "Journal Paper",
+        "authors": "Elena Simperl, Neal Reeves, Chris Phethean, Todd Lynes, Ramine Tinati",
+        "abstract": "The use of game elements within virtual citizen science is increasingly common, promising to bring increased user activity, motivation and engagement to large-scale scientific projects. However there is an ongoing debate about whether or not gamifying systems such as these is actually an effective means by which to increase motivation and engagement in the long term. While gamification itself is receiving a large amount of attention, there has been little beyond individual studies to assess its suitability or success for citizen science; similarly, while frameworks exist for assessing citizen science performance, they tend to lack any appreciation of the effects that game elements might have had. We therefore review the literature to determine what the trends are regarding the performance of particular game elements or characteristics in citizen science, and survey existing projects to assess how popular different game features are. Investigating this phenomenon further, we then present the results of a series of interviews carried out with the EyeWire citizen science project team to understand more about how gamification elements are introduced, monitored and assessed in a live project. Our findings suggest that projects use a range of game elements with points and leaderboards the most popular, particularly in projects that describe themselves as ‘games’. Currently, gamification appears to be effective in citizen science for maintaining engagement with existing communities, but shows limited impact for attracting new players.",
+        "year": 2017
+    },
+    {
+        "id": 8,
+        "title": "From crowd to community: a survey of online community features in citizen science projects",
+        "type": "Conference Paper",
+        "authors": "Neal Reeves, Ramine Tinati, Sergej Zerr, Max G Van Kleek, Elena Simperl",
+        "abstract": "Online citizen science projects have been increasingly used in a variety of disciplines and contexts to enable large-scale scientific research. The successes of such projects have encouraged the development of customisable platforms to enable anyone to run their own citizen science project. However, the process of designing and building a citizen science project remains complex, with projects requiring both human computation and social aspects to sustain user motivation and achieve project goals. In this paper, we conduct a systematic survey of 48 citizen science projects to identify common features and functionality. Supported by online community literature, we use structured walkthroughs to identify different mechanisms used to encourage volunteer contributions across four dimensions: task visibility, goals, feedback, and rewards. Our findings contribute to the ongoing discussion on citizen science design and the relationship between community and microtask design for achieving successful outcomes.",
+        "year": 2017
+    }
+]
