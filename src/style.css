@@ -38,17 +38,37 @@ p {
     align-items: center;
     margin-left: 2rem;
     margin-right: 2rem;
-    border: 2px solid var(--tertiary-colour);
 }
 
 .project-preview {
-    height: 10vh;
-    width: 10vh;
+    height: 30vh;
+    width: auto;
 }
 
-.project-image {
-    height: 50vh;
+.project-block {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-top: solid var(--quarternary-colour);
+}
+
+.project-preview-div {
+    height: 40vh;
     width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.project-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .project-info {
@@ -62,13 +82,17 @@ p {
 
 .projects {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
 }
 
 .navbar {
     background-color: var(--secondary-colour);
     height: 100%;
+}
+
+.year-papers h3 {
+    color: var(--heading-colour);
 }
 
 body {
@@ -82,6 +106,14 @@ body {
 header {
     flex: 0 0 10vh;
     height: 100%;
+}
+
+.year-block {
+    border-top: solid var(--quarternary-colour);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
 footer {
@@ -102,18 +134,26 @@ h1 {
     margin-left: 10px;
     margin-right: 10px;
     color: var(--tertiary-colour);
-    font-family: "Cinzel"; 
-    font-weight: 500;
     align-self: flex-end;
     width: auto;
 }
 
 h2 {
-    color: var(--primary-colour);
+    color: var(--text-colour);
 }
 
 .projects h3 {
     color: var(--text-colour)
+}
+
+.project-block {
+    display: flex;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -160,6 +200,10 @@ ul {
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.year-block {
+    display: flex;
 }
 
 .title {

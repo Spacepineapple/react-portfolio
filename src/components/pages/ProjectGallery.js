@@ -4,6 +4,8 @@ import projects from "../projects.json";
 import { Link } from "react-router-dom";
 import ProjectPage from "./ProjectPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import SectionHeading from "../SectionHeading";
+
 
 
 function ProjectGallery() {
@@ -16,11 +18,16 @@ function ProjectGallery() {
                 <div className="projects">
                     {projects.map(project => {
                     console.log(project)
-                    return (<Link to={`/project/${project.id}`}>
+                    return (<Link to={`/project/${project.id}`} key={project.id+"link"}>
                     <Routes>
                         <Route path="/project/:id" element={<ProjectPage/>}  />
                     </Routes>
-                    <PortfolioProject key={project.id} props={project}/>
+                    <div class="project-block">
+                        <div className="project-preview-div">
+                            <img className="project-preview" src={project.image}/>
+                        </div>
+                        <PortfolioProject key={project.id} project={project}/>
+                    </div>
                     </Link>)
                     })}
                 </div>

@@ -6,6 +6,8 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import ProjectGallery from "./components/pages/ProjectGallery";
 import ProjectPage from "./components/pages/ProjectPage";
+import CV from "./components/pages/CV";
+import Research from "./components/pages/Research";
 import "./style.css";
 
 function App() {

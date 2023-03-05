@@ -39,6 +39,28 @@ function Header() {
                     Contact
                     </NavLink>
                 </li>
+                <li className="page-link">
+                    <NavLink
+                    to="/Research"
+                    end
+                    className={({ isActive }) =>
+                        isActive ? "research-active" : "page-link"
+                    }
+                    >
+                    Research
+                    </NavLink>
+                </li>
+                <li className="page-link">
+                    <NavLink
+                    to="/CV"
+                    end
+                    className={({ isActive }) =>
+                        isActive ? "cv-active" : "page-link"
+                    }
+                    >
+                    CV
+                    </NavLink>
+                </li>
                 </ul>
             </nav>
         </header> 
