@@ -13,11 +13,15 @@ function ProjectPage() {
                 <h1>{project.name}</h1>
                 <div className="project-page">
                     <div className="project-info">
-                        <p>{project.description}</p>
-                        <p>{project.technologies}</p>
-                        <img src={project.image}/>
-                        <p><a href={project.deployed}/>{project.deployed}</p>
-                        <p><a href={project.repository}/>{project.repository}</p>
+                        <div className="project-image-div">
+                            <img src={project.image} className="project-image"/>
+                        </div>
+                        <div className="project-details">
+                            <p>{project.description}</p>
+                            <p>{project.technologies}</p>
+                            <p><a href={project.deployed}/>{project.deployed}</p>
+                            <p><a href={project.repository}/>{project.repository}</p>
+                        </div>
                     </div>
                 </div>
             </section>

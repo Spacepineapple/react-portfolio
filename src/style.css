@@ -12,10 +12,19 @@ main {
     justify-content: center;
     align-items: center;
     flex: 1 1 85vh;
+    background-color: var(--primary-colour);
     /*
     padding-left: 12.5vw;
     padding-right: 12.5vw;
     */
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: var(--quarternary-colour);
 }
 
 .container {
@@ -32,9 +41,23 @@ main {
     border: 2px solid var(--tertiary-colour);
 }
 
-.project-image {
+.project-preview {
     height: 10vh;
     width: 10vh;
+}
+
+.project-image {
+    height: 50vh;
+    width: auto;
+}
+
+.project-info {
+    display: flex;
+}
+
+.project-page {
+    display: flex;
+    justify-content: space-between;
 }
 
 .projects {
@@ -44,7 +67,8 @@ main {
 }
 
 .navbar {
-    background-color: var(--primary-colour);
+    background-color: var(--secondary-colour);
+    height: 100%;
 }
 
 body {
@@ -66,6 +90,10 @@ footer {
     text-align: center;
 }
 
+header, footer {
+    background-color: var(--secondary-colour);
+}
+
 footer h3 {
     color: var(--quarternary-colour);
 }
@@ -73,7 +101,7 @@ footer h3 {
 h1 {
     margin-left: 10px;
     margin-right: 10px;
-    color: var(--primary-colour);
+    color: var(--tertiary-colour);
     font-family: "Cinzel"; 
     font-weight: 500;
     align-self: flex-end;
@@ -84,14 +112,16 @@ h2 {
     color: var(--primary-colour);
 }
 
-nav, footer {
-    background-color: var(--primary-colour);
+.projects h3 {
+    color: var(--text-colour)
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: var(--secondary-colour);
+    height: 100%;
 }
 
 nav ul{

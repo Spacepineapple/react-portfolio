@@ -4,7 +4,7 @@ function PortfolioProject({props}) {
     return (
         <div className="portfolio-project">
             <h3>{props.name}</h3>
-            <img className="project-image" src={props.image}/>
+            <img className="project-preview" src={props.image}/>
             <p>{props.technologies}</p>
         </div>
     );
