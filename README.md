@@ -60,6 +60,11 @@ and npm.
 
 ## Usage <a id="usage"></a>
 
-
+This page can be used by visiting the URL listed above and viewing the page in
+the browser. Note that the page requires Javascript to view. If downloading the
+repository, the page can be rendered in the browser by navigating to the
+repository using the command line or terminal and running "npm run start". Note
+that as described under installation, this will require npm and other packages.
 
 ## Credits <a id="credits>"></a>
+
