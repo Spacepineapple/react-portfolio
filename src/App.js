@@ -13,10 +13,10 @@ import "./style.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="react-portfolio">
       <div className="container">
         <Header />
-        <Routes basename="react-portfolio">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projectGallery" element={<ProjectGallery />} />
