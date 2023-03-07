@@ -68,3 +68,7 @@ that as described under installation, this will require npm and other packages.
 
 ## Credits <a id="credits>"></a>
 
+This project was completed by myself -- Neal Reeves -- using freely available
+icons. These icons use the MIT license, the details
+of which can be found at: https://opensource.org/licenses/MIT
+
