@@ -44,8 +44,8 @@ main, footer {
 }
 
 section {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 
@@ -77,10 +77,15 @@ p {
     width: auto;
 }
 
+#title-link {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
 .project-block {
-    margin-left: 10vw;
-    margin-right: 10vw;
-    border-top: solid 2px var(--tertiary-colour);
+    display: flex;
+    border: solid 1px var(--tertiary-colour);
+    margin-bottom: 2rem;
 }
 
 .project-preview-div {
@@ -165,24 +170,30 @@ body {
 header {
     flex: 0 0 10vh;
     height: 100%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-header::after {
-    content: "";
-    display: block; 
-    margin: 0 auto; 
-    width: 90%; 
-    padding-top: 20px; 
-    border-bottom: solid var(--tertiary-colour); 
+.mini-portrait {
+    background-image: url("../public/images/NealPhoto.jpg");
+    height: auto;
+    background-size: 3rem 3rem;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+#title-portrait{
+    margin-right: 0;
 }
 
 .year-block {
     border-top: solid var(--tertiary-colour);
     display: flex;
     justify-content: space-between;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
 
 footer {
@@ -216,10 +227,6 @@ h2 {
     color: var(--heading-colour)
 }
 
-.project-block {
-    display: flex;
-}
-
 .section-heading {
     display: flex;
     justify-content: center;
@@ -242,6 +249,7 @@ nav ul{
     align-items: center;
     width: 100%;
     margin-left: 20vw;
+    margin-right: 20vw;
     padding: 0;
 }
 
@@ -252,6 +260,7 @@ nav li {
     display: flex;
     align-items: center;
     border-radius: 10%;
+    height: 3rem;
 }
 
 em {

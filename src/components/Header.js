@@ -1,5 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import portrait from "./../images/NealPhoto.jpg";
+
 
 function Header() {
     return (
@@ -59,6 +61,21 @@ function Header() {
                     }
                     >
                     CV
+                    </NavLink>
+                </li>
+                <li className="page-link" id="title-link">
+                    <NavLink
+                    to="/"
+                    end>
+                    <h1>Neal Reeves</h1>
+                    </NavLink>
+                </li>
+                <li className="page-link" id="title-portrait">
+                    <NavLink
+                    to="/"
+                    end>
+                    <div className="mini-portrait" id="nav-portrait">
+                    </div>
                     </NavLink>
                 </li>
                 </ul>
