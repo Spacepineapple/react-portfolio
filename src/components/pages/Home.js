@@ -7,18 +7,12 @@ function Home() {
             <section>
                 <div className="content-div" id="profile-content">
                         <img src={portrait} className="portrait"/>
-                        <p>Hello and welcome to my personal portfolio page! My name
-                        is Neal Reeves and I'm an aspiring web developer currently based in
-                        London, England. I have a background in academic research
-                        focused on the design and implementation of large-scale
-                        volunteer crowdsourcing projects that facilitate and support
-                        scientific research (<em>citizen science</em>). On
-                        this page, you can find a description of my skills, links to
-                        previous programming projects I have completed and links to
-                        my relevant social media pages if you wish to contact
-                        me.</p>
+                        <div className="description-div" id="profile-description">
+                            <h1>Welcome</h1>
+                            <p>Hello and welcome to my personal portfolio page! My name is Neal Reeves and I'm an aspiring web developer currently based in London, England. On this personal site, you can find a description of my skills and experience, links to previous programming projects I have completed and information on how to contact.</p>
+                        </div>
                 </div>
-                </section>
+            </section>
         </main>
     );
 }

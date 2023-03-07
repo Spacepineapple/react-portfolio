@@ -1,6 +1,5 @@
 import React from "react";
 
-
 function SectionHeading(props) {
     console.log('section header', props)
     return (

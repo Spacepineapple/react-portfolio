@@ -1,10 +1,31 @@
 :root {
-    --primary-colour: #0F0E0E;
-    --secondary-colour: #FEFFFE;
-    --tertiary-colour: #1C7293;
+    --primary-colour: #202231;
+    --secondary-colour: #E5E7E6;
+    --tertiary-colour: #FB3640;
     --quarternary-colour: #EE6C4D;
-    --text-colour: #FBFBFF;
+    --background-colour: #181A25;
     --heading-colour: #EF233C;
+    /*
+    --primary-colour: #202231;
+    --secondary-colour: #E5E7E6;
+    --tertiary-colour: #A9FBD7;
+    --quarternary-colour: #20A39E;
+    --background-colour: #181A25;
+    --heading-colour: #50E2D4
+
+    --primary-colour: #343434;
+    --secondary-colour: #FEFFFE;
+    --tertiary-colour: #595959;
+    --quarternary-colour: #EE6C4D;
+    --background-colour: #FBFBFF;
+    --heading-colour: #EF233C;
+    */
+
+
+}
+
+label {
+    color: var(--heading-colour);
 }
 
 main {
@@ -12,19 +33,30 @@ main {
     justify-content: center;
     align-items: center;
     flex: 1 1 85vh;
-    background-color: var(--text-colour);
     /*
     padding-left: 12.5vw;
     padding-right: 12.5vw;
     */
 }
 
-h1 {
-    text-align: center;
+main, footer {
+    background-color: var(--background-colour);
 }
 
+section {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
 p {
-    color: var(--primary-colour);
+    color: var(--secondary-colour);
+}
+
+#skills-div {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .container {
@@ -48,7 +80,7 @@ p {
 .project-block {
     margin-left: 10vw;
     margin-right: 10vw;
-    border-top: solid 2px var(--heading-colour);
+    border-top: solid 2px var(--tertiary-colour);
 }
 
 .project-preview-div {
@@ -86,8 +118,35 @@ p {
     justify-content: center;
 }
 
+.skills {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill {
+    border: 1px solid;
+    border-radius: 15%;
+    width: 25%;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+
+}
+
+.about-div {
+    width: 50%;
+}
+
 .navbar {
-    background-color: var(--secondary-colour);
+    background-color: var(--primary-colour);
     height: 100%;
 }
 
@@ -106,11 +165,20 @@ body {
 header {
     flex: 0 0 10vh;
     height: 100%;
-    border-bottom: solid var(--primary-colour);
+    
+}
+
+header::after {
+    content: "";
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 20px; 
+    border-bottom: solid var(--tertiary-colour); 
 }
 
 .year-block {
-    border-top: solid var(--heading-colour);
+    border-top: solid var(--tertiary-colour);
     display: flex;
     justify-content: space-between;
     margin-left: 10vw;
@@ -123,20 +191,21 @@ footer {
     text-align: center;
 }
 
-header, footer {
+header {
     background-color: var(--secondary-colour);
 }
 
 footer h3 {
-    color: var(--quarternary-colour);
+    color: var(--secondary-colour);
 }
 
 h1 {
     margin-left: 10px;
     margin-right: 10px;
-    color: var(--tertiary-colour);
+    color: var(--heading-colour);
     align-self: flex-end;
     width: auto;
+    text-align: center;
 }
 
 h2 {
@@ -161,7 +230,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--secondary-colour);
+    background-color: var(--primary-colour);
     height: 100%;
 }
 
@@ -185,9 +254,13 @@ nav li {
     border-radius: 10%;
 }
 
+em {
+    color: var(--quarternary-colour);
+}
+
 a {
     text-decoration: none;
-    color: var(--quarternary-colour);
+    color: var(--heading-colour);
 }
 
 ul {
@@ -239,14 +312,6 @@ ul {
 #skill-div {
     display: flex;
     justify-content: space-between;
-}
-
-.skill {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-    height: auto;
 }
 
 .skills p {
@@ -361,7 +426,7 @@ ul {
 }
 
 li {
-    color: var(--secondary-colour);
+    color: var(--heading-colour);
 }
 
 #about-content {
@@ -391,7 +456,7 @@ li {
 }
 
 h3 {
-    color: var(--primary-colour);
+    color: var(--heading-colour);
 }
 
 h4 {
@@ -431,7 +496,6 @@ h5 {
 }
 
 .project h3 {
-    color: var(--quarternary-colour);
     font-size: 4rem;
     text-align: center;
 }

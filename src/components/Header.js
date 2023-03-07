@@ -8,13 +8,13 @@ function Header() {
                 <ul>
                 <li className="page-link">
                     <NavLink
-                    to="/"
+                    to="/about"
                     end
                     className={({ isActive }) =>
                         isActive ? "home-active" : "page-link"
                     }
                     >
-                    Home
+                    About
                     </NavLink>
                 </li>
                 <li className="page-link">

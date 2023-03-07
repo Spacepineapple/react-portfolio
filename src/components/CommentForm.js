@@ -37,30 +37,40 @@ class CommentForm extends Component {
     render() {
         return (
             <div className="comment-form">
-                <input
-                    id="first-name"
-                    type="text"
-                    name="firstName"
-                    value={this.state.firstName}
-                    onChange={this.handleInputChange} 
-                />
-                
-                <input
-                    id="surname"
-                    type="text"
-                    name="surname"
-                    value={this.state.surname}
-                    onChange={this.handleInputChange} 
-                />
-                
-                <input
-                    id="comment"
-                    type="text"
-                    name="comment"
-                    value={this.state.comment}
-                    onChange={this.handleInputChange} 
-                />
-                <button onClick={this.addComment}>Add Comment</button>
+                <fieldset>
+                    <div class="form-section" id="first-name-section">
+                        <label for="first-name">First Name</label>
+                        <input
+                            id="first-name"
+                            type="text"
+                            name="firstName"
+                            value={this.state.firstName}
+                            onChange={this.handleInputChange} 
+                        />
+                    </div>
+                    <div class="form-section" id="surname-section">
+                    <label for="surname">Surname</label>
+                    <input
+                        id="surname"
+                        type="text"
+                        name="surname"
+                        value={this.state.surname}
+                        onChange={this.handleInputChange} 
+                    />
+                    </div>
+                    <div class="form-section" id="comment-section">
+                    <label for="comment">Comment</label>
+                    <input
+                        id="comment"
+                        type="text"
+                        name="comment"
+                        value={this.state.comment}
+                        onChange={this.handleInputChange}
+                        size="30vw"
+                    />
+                    </div>
+                    <button onClick={this.addComment}>Add Comment</button>
+                </fieldset>
             </div>
         
     )};
