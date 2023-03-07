@@ -17,13 +17,13 @@ function App() {
       <div className="container">
         <Header />
         <Routes basename="react-portfolio">
-          <Route path="" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="projectGallery" element={<ProjectGallery />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="project/:id" element={<ProjectPage/>}  />
-          <Route path="research" element={<Research/>} />
-          <Route path="cv" element={<CV/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projectGallery" element={<ProjectGallery />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project/:id" element={<ProjectPage/>}  />
+          <Route path="/research" element={<Research/>} />
+          <Route path="/cv" element={<CV/>} />
         </Routes>
         <Footer />
       </div>

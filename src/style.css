@@ -20,8 +20,10 @@
     --background-colour: #FBFBFF;
     --heading-colour: #EF233C;
     */
+}
 
-
+p {
+    font-size: 1rem;
 }
 
 label {
@@ -170,6 +172,7 @@ body {
 header {
     flex: 0 0 10vh;
     height: 100%;
+    background-color: var(--primary-colour);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,22 +191,20 @@ header {
     margin-right: 0;
 }
 
+.research {
+    margin-top: 2rem;
+}
+
 .year-block {
     border-top: solid var(--tertiary-colour);
     display: flex;
     justify-content: space-between;
-    margin-left: 20vw;
-    margin-right: 20vw;
 }
 
 footer {
     flex: 0 0 5vh;
     color: var(--quarternary-colour);
     text-align: center;
-}
-
-header {
-    background-color: var(--secondary-colour);
 }
 
 footer h3 {
@@ -231,6 +232,15 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 2rem;
+}
+
+input {
+    width: 100%;
+}
+
+#comment {
+    height: 5rem;
 }
 
 nav {
@@ -238,7 +248,7 @@ nav {
     align-items: center;
     justify-content: space-evenly;
     background-color: var(--primary-colour);
-    height: 100%;
+    height: 80%;
 }
 
 nav ul{
@@ -298,10 +308,6 @@ ul {
     justify-content: center;
 }
 
-.content-div {
-    width: 50vw;
-}
-
 .content {
     margin-left: 20px;
     font-family: "Roboto", "Open Sans", sans-serif;
@@ -343,78 +349,9 @@ ul {
     align-self: flex-start;
 }
 
-/*
-#about {
-    grid-area: about;
+nav h1 {
+    color: var(--secondary-colour);
 }
-
-#skills {
-    grid-area: skills;
-}
-
-#portfolio {
-    grid-area: portfolio;
-}
-
-#research {
-    grid-area: research;
-}
-
-#contact {
-    grid-area: contact;
-}
-
-.content {
-    display: flex;
-}
-
-#projects {
-    display: grid;
-    grid-template-rows: 50% 25% 25%;
-    grid-template-columns: 50% 50%;
-    grid-template-areas:
-        "projectOne projectOne"
-        "projectTwo projectThree"
-        "projectFour projectFive";
-}
-
-#project-one {
-    grid-area: projectOne;
-    background-image: url("../assets/Project.jpg");
-}
-
-#project-two {
-    grid-area: projectTwo;
-    background-image: url("../assets/htmlCode.jpg");
-}
-
-#project-three {
-    grid-area: projectThree;
-    background-image: url("../assets/javascriptCode.jpg");
-}
-
-#project-four {
-    grid-area: projectFour;
-    background-image: url("../assets/phpCode.jpg");
-}
-
-#project-five {
-    grid-area: projectFive;
-    background-image: url("../assets/codeText.jpg");
-}
-
-.project {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem 1rem 1rem 1rem;
-}
-
-.project-image {
-    height: 33%;
-    width: 33%;
-}
-*/
 
 .social-media-icon {
     height: 1rem;
