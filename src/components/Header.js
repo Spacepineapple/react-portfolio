@@ -13,7 +13,7 @@ function Header() {
                     to="/about"
                     end
                     className={({ isActive }) =>
-                        isActive ? "home-active" : "page-link"
+                        isActive ? "link-active" : "nav-link"
                     }
                     >
                     About
@@ -24,7 +24,7 @@ function Header() {
                     to="/ProjectGallery"
                     end
                     className={({isActive}) =>
-                        isActive ? "project-active": "page-link"
+                        isActive ? "link-active": "nav-link"
                     }
                     >
                     Portfolio
@@ -35,7 +35,7 @@ function Header() {
                     to="/Contact"
                     end
                     className={({isActive}) =>
-                        isActive ? "contact-active": "page-link"
+                        isActive ? "link-active": "nav-link"
                     }
                     >
                     Contact
@@ -46,7 +46,7 @@ function Header() {
                     to="/Research"
                     end
                     className={({ isActive }) =>
-                        isActive ? "research-active" : "page-link"
+                        isActive ? "link-active" : "nav-link"
                     }
                     >
                     Research
@@ -57,7 +57,7 @@ function Header() {
                     to="/CV"
                     end
                     className={({ isActive }) =>
-                        isActive ? "cv-active" : "page-link"
+                        isActive ? "link-active" : "nav-link"
                     }
                     >
                     CV

@@ -348,13 +348,6 @@ ul {
     width: 75%;
 }
 
-
-.skill-icon {
-    max-height: 10vh;
-    width: auto;
-    filter: invert(42%) sepia(91%) saturate(1911%) hue-rotate(151deg) brightness(98%) contrast(101%);
-}
-
 .profile {
     display: flex;
     flex-direction: column;
@@ -366,6 +359,21 @@ ul {
 
 nav h1 {
     color: var(--secondary-colour);
+}
+
+.nav-link:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--heading-colour);
+    transform: translateY(-0.1em);
+}
+
+.link-active {
+    color: var(--quarternary-colour);
+    font-weight: 700;
+}
+
+.link-active:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--quarternary-colour);
+    transform: translateY(-0.1em);
 }
 
 .social-media-icon {
@@ -396,25 +404,6 @@ li {
     
 }
 
-#about-link:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em red;
-}
-
-#skills-link:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em orange;
-}
-
-#portfolio-link:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em yellow;
-}
-
-#research-link:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em yellowgreen;
-}
-
-#contact-link:hover {
-    box-shadow: 0 0.5em 0.5em -0.4em aqua;
-}
 
 h3 {
     color: var(--heading-colour);
