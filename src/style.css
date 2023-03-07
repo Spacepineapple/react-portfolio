@@ -479,3 +479,17 @@ h5 {
     display: flex;
     justify-content: center;
 }
+
+.icon {
+    filter: invert(24%) sepia(88%) saturate(1946%) hue-rotate(337deg) brightness(110%) contrast(97%);
+    height: 1.5rem;
+    width: auto;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+}
