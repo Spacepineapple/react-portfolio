@@ -21,14 +21,14 @@ function Research() {
                     {years.map((year) => {
                     return(<div className="year-block" key={year+"block"}>
                         <SectionHeading text={year} key={year+"heading"}/>
-                        <div className="year-papers" key={year+"papers"}>
+                        <div className="year-papers" key={year+"papers"} id={`year-${year}`}>
                             {projects.filter((project) => project.year===year).map((project) => {
                             console.log(project);
-                            return (<Fragment key={project.id}><Publication project={project} key={project.id}/>
+                            return (<div key={project.id} id={`paper-${project.id}`}><Publication project={project} key={project.id}/>
                             <Link to={`/research/${project.id}`} key={project.id+"link"}>
                                 <p key={project.id+"link-text"}>More Details</p>
                             </Link>
-                            </Fragment>)})}
+                            </div>)})}
                         </div>
                     </div>
                 )}
