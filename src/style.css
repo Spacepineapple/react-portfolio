@@ -206,14 +206,18 @@ header {
 }
 
 .year-block {
-    border-top: solid var(--tertiary-colour);
+    border-top: solid var(--heading-colour);
     display: flex;
     justify-content: space-between;
     display: flex;
 }
 
-#year-2017 {
-    border-bottom: solid var(--tertiary-colour);
+#block2017 {
+    border-bottom: solid var(--heading-colour);
+}
+
+#paper-8 {
+    border-bottom: none;
 }
 
 footer {
@@ -526,6 +530,14 @@ h5 {
         align-items: center;
     }
 
+}
+
+.year-block .section-heading {
+    width: 10%;
+}
+
+.year-papers {
+    width: 90%;
 }
 
 #hamburger-icon {
