@@ -9,7 +9,7 @@ function About() {
         <main>
             <section>
                 <div className="content-div" id="about-content">
-                        <div class="skills" id="skills-section">
+                        <div class="skills" id="about-skills">
                             <h2>Skills</h2>
                             <div id="skills-div">
                                 {skills.map(skill => <Skill skill={skill} key={skill}></Skill>)}
