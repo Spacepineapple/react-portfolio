@@ -12,32 +12,32 @@
     {
         "id": "2",
         "name": "Snake",
-        "image": "/react-portfolio/images/SchedulePlanner.png",
+        "image": "/react-portfolio/images/python_snake.png",
         "short": "A playable implementation of the classic game Snake with the functionality to store and retrieve the player's highest score",
         "description": "A complete and playable snake game built in Python using the Turtle Graphics package. Scores by writing to and reading from a text file. The player must collect the food while ensuring the snake does not touch the edges of the window and also does not cause any part of the snake to touch any other part.",
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
-        "repository": "URL goes here"
+        "repository": "https://github.com/Spacepineapple/python-snake"
     },
     {
         "id": "3",
         "name": "FlashCard App",
-        "image": "/react-portfolio/images/SchedulePlanner.png",
+        "image": "/react-portfolio/images/flashcard_app.png",
         "short": "A flashcard app to support me with learning Japanese with functionality to keep track of and remove words after mastery",
         "description": "A flashcard application to help the user learn a language. The app takes a CSV file containing text in the target language and the user's own language. A word in the target language is then chosen at random and shown to the user who can use three buttons -- one to flip the card between the target language and their own language, one to save the word for the future and another to remove it from the CSV file after they have learnt it.",
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
-        "repository": "URL goes here"    
+        "repository": "https://github.com/Spacepineapple/flashcard-app"    
     },
     {
         "id": "4",
         "name": "Pong",
-        "image": "/react-portfolio/images/SchedulePlanner.png",
+        "image": "/react-portfolio/images/pong.png",
         "short": "A fully functional, playable implementtion of the classic game Pong with support for 2 players",
         "description": "A playable implementation of the classic game Pong built in Rust. The game responds to key presses and supports two players with one using the arrow keys and the other using the w and s keys.",
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
-        "repository": "URL goes here"
+        "repository": "https://github.com/Spacepineapple/pong"
     },
     {
         "id": "5",

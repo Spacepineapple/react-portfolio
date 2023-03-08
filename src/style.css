@@ -98,11 +98,10 @@ p {
 
 .project-preview-div {
     height: 40vh;
-    width: auto;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 10%;
 }
 
 .cv-section li {
@@ -117,6 +116,7 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 50%;
 }
 
 .project-info {
