@@ -1,10 +1,10 @@
-import React, { Fragment } from "react";
+import React from "react";
 import projects from "../research.json";
 import SectionHeading from "../SectionHeading";
 import Publication from "../Publication";
 
 let years = []
-projects.map(project => project.year).filter(year => {
+projects.map(project => project.year).forEach(year => {
     if (!(years.includes(year))) {
         years.push(year);
     }
@@ -21,7 +21,7 @@ function Research() {
                     return(<div className="year-block" id={"block"+year} key={year+"block"}>
                         <SectionHeading text={year} key={year+"heading"}/>
                         <div className="year-papers" key={year+"papers"} id={`year-${year}`}>
-                            {projects.filter(project => project.year===year).map((project) => {
+                            {projects.filter((project) => (project.year===year)).map((project) => {
                             return (<div key={project.id} id={`paper-${project.id}`}><Publication project={project} key={project.id}/>
                                 <p key={project.id+"link-text"}><a href={project.link}>More Details</a></p>
                             </div>)})}

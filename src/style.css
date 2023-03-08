@@ -88,6 +88,7 @@ p {
     display: flex;
     border: solid 1px var(--tertiary-colour);
     margin-bottom: 2rem;
+    padding: 0% 5% 0% 5%;
 }
 
 .project-block:hover {
@@ -101,8 +102,13 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 10%;
     padding-right: 10%;
+}
+
+.cv-section li {
+    list-style-type: square;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
 }
 
 .project-summary {
@@ -111,8 +117,6 @@ p {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .project-info {
@@ -139,8 +143,7 @@ p {
 }
 
 .skill {
-    border: 1px solid;
-    border-radius: 15%;
+    border: 1px solid var(--secondary-colour);
     width: 25%;
     margin-left: 0.3rem;
     margin-right: 0.3rem;
@@ -724,4 +727,8 @@ h5 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contact-option {
+    color: var(--quarternary-colour);
 }
