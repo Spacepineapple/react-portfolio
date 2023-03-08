@@ -1,6 +1,6 @@
 import React from "react";
 import PortfolioProject from "../PortfolioProject";
-import projects from "../projects.json";
+import projects from "../../data/projects.json";
 import { Link } from "react-router-dom";
 import ProjectPage from "./ProjectPage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";

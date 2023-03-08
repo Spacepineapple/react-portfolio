@@ -1,9 +1,9 @@
 import React from "react";
-import education from "../cv_education.json";
-import experience from "../cv_experience.json";
-import projects from "../cv_projects.json";
-import hobbies from "../cv_hobbies.json";
-import skills from "../skills.json";
+import education from "../../data/cv_education.json";
+import experience from "../../data/cv_experience.json";
+import projects from "../../data/cv_projects.json";
+import hobbies from "../../data/cv_hobbies.json";
+import skills from "../../data/skills.json";
 import SectionHeading from "../SectionHeading";
 import CVBlock from "../CVBlock";
 

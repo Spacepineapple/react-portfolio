@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../research.json";
+import projects from "../../data/research.json";
 import SectionHeading from "../SectionHeading";
 import Publication from "../Publication";
 

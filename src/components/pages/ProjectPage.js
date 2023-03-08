@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "../projects.json";
+import projects from "../../data/projects.json";
 //Import the useParams hook
 import {useParams} from "react-router-dom";
 
