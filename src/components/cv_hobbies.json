@@ -1,11 +1,14 @@
 [
     {
+        "id": 1,
         "description": "Improving language skills through self-study and attending language cafés"
     }, 
     {
+        "id": 2,
         "description": "Improving programming skills through completion of online courses and working on personal projects"
     },
     {
+        "id": 3,
         "description": "Learning and playing the piano and violin"
     }
 ]

@@ -42,7 +42,7 @@ class CommentForm extends Component {
                 <fieldset>
                     {/*Create a text input for the user's first name*/}
                     <div className="form-section" id="first-name-section">
-                        <label for="first-name">First Name</label>
+                        <label htmlFor="first-name">First Name</label>
                         <input
                             id="first-name"
                             type="text"
@@ -53,7 +53,7 @@ class CommentForm extends Component {
                     </div>
                     {/*Create a text input for the user's surname*/}
                     <div className="form-section" id="surname-section">
-                    <label for="surname">Surname</label>
+                    <label htmlFor="surname">Surname</label>
                     <input
                         id="surname"
                         type="text"
@@ -64,7 +64,7 @@ class CommentForm extends Component {
                     </div>
                     {/*Create a text input for the user's comment*/}
                     <div className="form-section" id="comment-section">
-                    <label for="comment">Comment</label>
+                    <label htmlFor="comment">Comment</label>
                     <input
                         id="comment"
                         type="text"

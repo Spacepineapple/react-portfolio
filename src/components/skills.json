@@ -1,20 +1,26 @@
 [   
     {
-    "description": "Strong knowledge of Python gathered from degree and subsequent use and training"
+        "id": 1,
+        "description": "Strong knowledge of Python gathered from degree and subsequent use and training"
     },
     {
-    "description": "Good working knowledge of HTML, CSS and JavaScript including node.js, React and jQuery"
+        "id": 2,
+        "description": "Good working knowledge of HTML, CSS and JavaScript including node.js, React and jQuery"
     },
     {
-    "description": "Strong understanding of and experience with SQL (Postgres and MySQL)"
+        "id": 3,
+        "description": "Strong understanding of and experience with SQL (Postgres and MySQL)"
     },
     {
-    "description": "Native English, near-native (ECRF C2) Portuguese, fluent (C1) German and competent Japanese (B1)"
+        "id": 4,
+        "description": "Native English, near-native (ECRF C2) Portuguese, fluent (C1) German and competent Japanese (B1)"
     },
     {
-    "description": "Good attention to detail, with a love for -- and experience in -- troubleshooting and problem solving"
+        "id": 5,
+        "description": "Good attention to detail, with a love for -- and experience in -- troubleshooting and problem solving"
     },
     {
-    "description": "Fast learner, eager and willing to learn new skills through independent effort and applied learning"
+        "id": 6,
+        "description": "Fast learner, eager and willing to learn new skills through independent effort and applied learning"
     }
 ]

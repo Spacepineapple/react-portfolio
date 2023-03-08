@@ -18,7 +18,7 @@ function CV() {
                         <div className="cv-div" id="cv-skills">
                             <ul>
                                 {/*For each skill in skills, create a list element with the description*/}
-                                {skills.map(skill => <li>{skill.description}</li>)}
+                                {skills.map(skill => <li key={`skill-${skill.id}`}>{skill.description}</li>)}
                             </ul>
                         </div>
                     </div>
@@ -26,21 +26,21 @@ function CV() {
                         <SectionHeading text={"Projects"} key={"projects"}/>
                         <div className="cv-div" id="cv-projects">
                             {/*For each project in projects, create a CV block*/}
-                            {projects.map(project => <CVBlock props={project}/>)}
+                            {projects.map(project => <CVBlock props={project} key={`projects-${project.id}`}/>)}
                         </div>
                     </div>
                     <div className="cv-section" id="experience-section">
                         <SectionHeading text={"Experience"} key={"experience"}/>
                         <div className="cv-div" id="cv-experience">
                             {/*For each bit of experience in experience, create a CV block*/}
-                            {experience.map(experience => <CVBlock props={experience}/>)}
+                            {experience.map(experience => <CVBlock props={experience} key={`experience-${experience.id}`}/>)}
                         </div>
                     </div>
                     <div className="cv-section" id="education-section">
                         <SectionHeading text={"Education"} key={"education"}/>
                         <div className="cv-div" id="cv-education">
                             {/*For each bit of education in education, create a CV block*/}
-                            {education.map(education => <CVBlock props={education}/>)}
+                            {education.map(education => <CVBlock props={education} key={`education-${education.id}`}/>)}
                         </div>
                     </div>
                     <div className="cv-section" id="hobbies-section">
@@ -48,7 +48,7 @@ function CV() {
                         <div className="cv-div" id="cv-hobbies">
                             <ul>
                                 {/*For each hobby in hobbies, create a list elemeent with the description*/}
-                                {hobbies.map(hobby => <li>{hobby.description}</li>)}
+                                {hobbies.map(hobby => <li key={`hobby-${hobby.id}`}>{hobby.description}</li>)}
                             </ul>
                         </div>
                     </div>
