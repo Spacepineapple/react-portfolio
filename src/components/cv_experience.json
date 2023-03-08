@@ -1,0 +1,26 @@
+[
+    {
+        "Location": "Multiverse",
+        "Title": "Data Fellowship Coach",
+        "Dates": "MAY 2022 - PRESENT",
+        "Point One": "Provide tailored coaching to 40 professionals working towards level 4 data analytics apprenticeship",
+        "Point Two": "Advise, mentor and support professionals with projects and problems across the data science lifecycle",
+        "Point Three": "Deliver interactive online workshops, bootcamps and hackathons covering topics such as statistics and quantitative analysis, SQL, Python, machine learning, business intelligence and visualisations"
+    },
+    {
+        "Location": "King's College London",
+        "Title": "Research Associate",
+        "Dates": "FEB 2020 - APR 2022",
+        "Point One": "Performed research into trust in AI and engagement in crowdsourcing and online communities",
+        "Point Two": "Manipulated large-scale crowdsourced datasets programmatically using Python, SQL and AWS",
+        "Point Three": "Led €120,000 accelerator providing data analytics and research training for 6 organisations"
+    },
+    {
+        "Location": "University of Southampton",
+        "Title": "Research Fellow",
+        "Dates": "NOV 2017 - JAN 2020",
+        "Point One": "Conducted research monitoring engagement in online social networks and collaborative communities",
+        "Point Two": "Designed web-based data collection and visualisation applications to monitor community interaction",
+        "Point Three": "Analysed data from 36 crowdsourcing projects to develop recommendations for platform design"
+    }
+]
