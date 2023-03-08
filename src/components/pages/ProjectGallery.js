@@ -24,7 +24,7 @@ function ProjectGallery() {
                     </Routes>
                     <div class="project-block">
                         <div className="project-preview-div">
-                            <img className="project-preview" src={project.image}/>
+                            <img className="project-preview" src={project.image} alt={`Screenshot of ${project.name} interface`}/>
                         </div>
                         <PortfolioProject key={project.id} project={project}/>
                     </div>
