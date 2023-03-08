@@ -12,37 +12,42 @@ function CV() {
         <main>
             <section>
                 <p>Below you can see my CV including a summary of my experience, education and skills to date. To access a downloadable copy, <a href="/Neal_Reeves_CV.pdf">click here</a> or feel free to visit my LinkedIn profile <a href="https://www.linkedin.com/in/neal-reeves-55a27774/">here</a>. To find out more about my projects, visit my portfolio using the tab above or find me on GitHub <a href="https://github.com/Spacepineapple/">here</a>.</p>
-                <div class="cv-area" id="cv">
-                    <div class="cv-section" id="skills-section">
+                <div className="cv-area" id="cv">
+                    <div className="cv-section" id="skills-section">
                         <SectionHeading text={"Skills"} key={"skills"}/>
-                        <div class="cv-div" id="cv-skills">
+                        <div className="cv-div" id="cv-skills">
                             <ul>
+                                {/*For each skill in skills, create a list element with the description*/}
                                 {skills.map(skill => <li>{skill.description}</li>)}
                             </ul>
                         </div>
                     </div>
-                    <div class="cv-section" id="projects-section">
+                    <div className="cv-section" id="projects-section">
                         <SectionHeading text={"Projects"} key={"projects"}/>
-                        <div class="cv-div" id="cv-projects">
+                        <div className="cv-div" id="cv-projects">
+                            {/*For each project in projects, create a CV block*/}
                             {projects.map(project => <CVBlock props={project}/>)}
                         </div>
                     </div>
-                    <div class="cv-section" id="experience-section">
+                    <div className="cv-section" id="experience-section">
                         <SectionHeading text={"Experience"} key={"experience"}/>
-                        <div class="cv-div" id="cv-experience">
+                        <div className="cv-div" id="cv-experience">
+                            {/*For each bit of experience in experience, create a CV block*/}
                             {experience.map(experience => <CVBlock props={experience}/>)}
                         </div>
                     </div>
-                    <div class="cv-section" id="education-section">
+                    <div className="cv-section" id="education-section">
                         <SectionHeading text={"Education"} key={"education"}/>
-                        <div class="cv-div" id="cv-education">
+                        <div className="cv-div" id="cv-education">
+                            {/*For each bit of education in education, create a CV block*/}
                             {education.map(education => <CVBlock props={education}/>)}
                         </div>
                     </div>
-                    <div class="cv-section" id="hobbies-section">
+                    <div className="cv-section" id="hobbies-section">
                         <SectionHeading text={"Hobbies"} key={"hobbies"}/>
-                        <div class="cv-div" id="cv-hobbies">
+                        <div className="cv-div" id="cv-hobbies">
                             <ul>
+                                {/*For each hobby in hobbies, create a list elemeent with the description*/}
                                 {hobbies.map(hobby => <li>{hobby.description}</li>)}
                             </ul>
                         </div>

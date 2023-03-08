@@ -1,9 +1,9 @@
 import React from "react";
 
+//Create a div holding the text passed to it
 function SectionHeading(props) {
-    console.log('section header', props)
     return (
-        <div class="section-heading">
+        <div className="section-heading">
             <h2>{props.text}</h2>
         </div>
     )

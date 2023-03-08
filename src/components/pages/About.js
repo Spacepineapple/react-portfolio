@@ -9,9 +9,10 @@ function About() {
         <main>
             <section>
                 <div className="content-div" id="about-content">
-                        <div class="skills" id="about-skills">
+                        <div className="skills" id="about-skills">
                             <h2>Skills</h2>
                             <div id="skills-div">
+                                {/*Loop through each skill and create a skills component for it*/}
                                 {skills.map(skill => <Skill skill={skill} key={skill}></Skill>)}
                             </div>
                         </div>

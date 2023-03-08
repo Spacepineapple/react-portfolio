@@ -1,5 +1,7 @@
 import React from "react";
 
+//Return a Div containing the heading, subtitle, dates and a list of the details
+//of the item passed to it.
 function CVBlock({props}) {
     return (
         <div className="inner-block" id={props.id}>

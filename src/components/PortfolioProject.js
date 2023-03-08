@@ -1,6 +1,7 @@
 import React from "react";
 
-
+//Create a div holding the name, short description and technologies of the
+//project passed to it
 function PortfolioProject({project}) {
     return (
         <div className="project-summary">

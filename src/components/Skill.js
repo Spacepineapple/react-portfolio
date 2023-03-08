@@ -1,5 +1,6 @@
 import React from "react";
 
+//Create a div holding the text of the skill passed to the component
 function Skill(props) {
     return (
         <div className="skill">

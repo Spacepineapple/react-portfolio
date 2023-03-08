@@ -1,29 +1,31 @@
 import React, {Component} from "react";
-import { useState } from "react";
 
 
 class CommentForm extends Component {
+    //Initialise the state for each input as an empty string
     state = {
         firstName: "",
         surname: "",
         comment: ""
     };
 
+    //Create functionality to update input
     handleInputChange = event => {
-    // Getting the value and name of the input which triggered the change
+    // Get the value and name of the input which triggered the change
         const { name, value } = event.target;
 
-        // Updating the input's state
+        // Update that input's value to be the new value
         this.setState({
             [name]: value
         });
     };
     
+    //Create functionality to add a comment
     addComment = event => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
+        //Prevent the page from refreshing and information being lost
         event.preventDefault();
 
-        // Alert the user their first and last name, clear `this.state.firstName` and `this.state.lastName`, clearing the inputs
+        //Alert the user that their comment has been received and show them their comment
         alert(`Comment Received:
         Name: ${this.state.firstName} ${this.state.surname}
         Comment: ${this.state.comment}`);
@@ -38,7 +40,8 @@ class CommentForm extends Component {
         return (
             <div className="comment-form">
                 <fieldset>
-                    <div class="form-section" id="first-name-section">
+                    {/*Create a text input for the user's first name*/}
+                    <div className="form-section" id="first-name-section">
                         <label for="first-name">First Name</label>
                         <input
                             id="first-name"
@@ -48,7 +51,8 @@ class CommentForm extends Component {
                             onChange={this.handleInputChange} 
                         />
                     </div>
-                    <div class="form-section" id="surname-section">
+                    {/*Create a text input for the user's surname*/}
+                    <div className="form-section" id="surname-section">
                     <label for="surname">Surname</label>
                     <input
                         id="surname"
@@ -58,7 +62,8 @@ class CommentForm extends Component {
                         onChange={this.handleInputChange} 
                     />
                     </div>
-                    <div class="form-section" id="comment-section">
+                    {/*Create a text input for the user's comment*/}
+                    <div className="form-section" id="comment-section">
                     <label for="comment">Comment</label>
                     <input
                         id="comment"

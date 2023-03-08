@@ -1,5 +1,7 @@
 import React from "react";
 
+//Create a block containing the title, authors, abstract and type of the
+//publication passed to it
 function Publication({project}) {
     return (
         <>
