@@ -514,6 +514,18 @@ h5 {
         flex-direction: column;
     }
 
+    .project-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-details {
+        display: flex;
+        margin-left: none;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 #hamburger-icon {
@@ -539,6 +551,10 @@ h5 {
 
     .cv-div {
         width: 70%;
+    }
+
+    .project-details {
+        margin-left: 2rem;
     }
 }
 
@@ -632,4 +648,21 @@ h5 {
 
 #project-2, #exp-3, #ed-4 {
     border-bottom: none;
+}
+
+.project-image {
+    height: 50vh;
+    width: auto;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-image-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
