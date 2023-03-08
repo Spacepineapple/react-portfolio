@@ -1,3 +1,4 @@
+/*Initialise variables for main colours*/
 :root {
     --primary-colour: #202231;
     --secondary-colour: #E5E7E6;
@@ -5,21 +6,6 @@
     --quarternary-colour: #EE6C4D;
     --background-colour: #181A25;
     --heading-colour: #EF233C;
-    /*
-    --primary-colour: #202231;
-    --secondary-colour: #E5E7E6;
-    --tertiary-colour: #A9FBD7;
-    --quarternary-colour: #20A39E;
-    --background-colour: #181A25;
-    --heading-colour: #50E2D4
-
-    --primary-colour: #343434;
-    --secondary-colour: #FEFFFE;
-    --tertiary-colour: #595959;
-    --quarternary-colour: #EE6C4D;
-    --background-colour: #FBFBFF;
-    --heading-colour: #EF233C;
-    */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,10 +25,6 @@ main {
     justify-content: center;
     align-items: center;
     flex: 1 1 85vh;
-    /*
-    padding-left: 12.5vw;
-    padding-right: 12.5vw;
-    */
 }
 
 main, footer {
@@ -64,14 +46,6 @@ p {
 .container {
     display: flex;
     flex-flow: column;
-}
-
-.portfolio-project {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    margin-left: 2rem;
-    margin-right: 2rem;
 }
 
 .project-preview {
@@ -225,7 +199,6 @@ footer {
     display: flex;
 }
 
-
 h1 {
     margin-left: 10px;
     margin-right: 10px;
@@ -348,15 +321,6 @@ ul {
     width: 75%;
 }
 
-.profile {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    height: 60vh;
-    align-self: flex-start;
-}
-
 nav h1 {
     color: var(--secondary-colour);
 }
@@ -374,12 +338,6 @@ nav h1 {
 .link-active:hover {
     box-shadow: 0 0.5em 0.5em -0.4em var(--quarternary-colour);
     transform: translateY(-0.1em);
-}
-
-.social-media-icon {
-    height: 1rem;
-    width: 1rem;
-    margin-right: 5px;
 }
 
 .contact {
@@ -404,7 +362,6 @@ li {
     
 }
 
-
 h3 {
     color: var(--heading-colour);
 }
@@ -420,10 +377,6 @@ h5 {
 
 #contact a {
     color: var(--secondary-colour);
-}
-
-.social-media-icon {
-    filter: invert(42%) sepia(91%) saturate(1911%) hue-rotate(151deg) brightness(98%) contrast(101%);
 }
 
 #profile-content {
@@ -625,7 +578,6 @@ h5 {
     
 }
 
-
 #contact-text p {
     text-align: center;
 }
@@ -681,7 +633,6 @@ h5 {
 .cv-area li {
     color: var(--secondary-colour);
 }
-
 
 
 .inner-block {
