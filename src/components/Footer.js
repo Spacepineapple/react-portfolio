@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <h3>&copy; Neal Reeves, 2023</h3>
+            <p>&copy; Neal Reeves, 2023</p>
             <div className="icon-div">
                 <a href="mailto:neal.t.reeves@gmail.com"><img className="icon" src="/react-portfolio/images/email.png"/></a>
                 <a href="https://github.com/Spacepineapple/"><img className="icon" src="/react-portfolio/images/github-icon.png"/></a>
