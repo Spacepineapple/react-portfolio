@@ -510,6 +510,10 @@ h5 {
         width: 100%;
     }
     
+    .project-block {
+        flex-direction: column;
+    }
+
 }
 
 #hamburger-icon {
