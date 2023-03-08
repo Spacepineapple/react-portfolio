@@ -1,18 +1,20 @@
 [
     {
-        "Name": "InfoTravel",
-        "Link": "https://github.com/Spacepineapple/infotravel-travel-information/",
-        "Type": "Group Project (Front-End Developer)",
-        "Point One": "Travel information service allowing travellers to view information on destinations with a single search",
-        "Point Two": "Gathers information from external APIs such as currency exchange, weather, news and more",
-        "Point Three": "Uses HTML, CSS, Bootstrap 5, Javascript, Google Fonts and External APIs"
+        "id": "project-1",
+        "Heading": "InfoTravel (Group Project)",
+        "Subtitle": "https://github.com/Spacepineapple/infotravel-travel-information/",
+        "Dates": "JAN 2023 - FEB 2023",
+        "First": "Travel information service allowing travellers to view information on destinations with a single search",
+        "Second": "Gathers information from external APIs such as currency exchange, weather, news and more",
+        "Third": "Uses HTML, CSS, Bootstrap 5, Javascript, Google Fonts and External APIs"
     },
     {
-        "Name": "React Portfolio",
-        "Link": "https://github.com/Spacepineapple/react-portfolio",
-        "Type": "Personal Project",
-        "Point One": "Designed, developed and deployed a portfolio using React to showcase portfolio projects",
-        "Point Two": "Incorporates hooks and responsive design to deliver a smooth, reactive experience",
-        "Point Three": "Uses HTML, CSS, Javascript, React, React Router, Node.js, Google Fonts"
+        "id": "project-2",
+        "Heading": "React Portfolio (Personal Project)",
+        "Subtitle": "https://github.com/Spacepineapple/react-portfolio",
+        "Dates": "MAR 2023",
+        "First": "Designed, developed and deployed a portfolio using React to showcase portfolio projects",
+        "Second": "Incorporates hooks and responsive design to deliver a smooth, reactive experience",
+        "Third": "Uses HTML, CSS, Javascript, React, React Router, Node.js, Google Fonts"
     }
 ]

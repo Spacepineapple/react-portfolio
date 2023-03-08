@@ -1,34 +1,37 @@
 [
     {
+        "id": "ed-1",
         "Location": "edX",
         "Degree": "Front End Web Development Bootcamp",
         "Dates": "NOV 2022 - MAR 2023",
-        "Point One": "Part-time bootcamp with 11 hours of weekly teaching as well as self-study, projects and assignments",
-        "Point Two": "Topics including HTML, CSS, JavaScript, Node.js, jQuery and frameworks such as React",
-        "Point Three": "Additional training in object-oriented programming, test-driven development and storing data"
+        "First": "Part-time bootcamp with 11 hours of weekly teaching as well as self-study, projects and assignments",
+        "Second": "Topics including HTML, CSS, JavaScript, Node.js, jQuery and frameworks such as React",
+        "Third": "Additional training in object-oriented programming, test-driven development and storing data"
     },
     {
-        "Location": "University of Southampton",
-        "Degree": "PhD Web Science",
+        "id": "ed-2",
+        "Heading": "University of Southampton",
+        "Subtitle": "PhD Web Science",
         "Dates": "OCT 2014 - SEP 2018",
-        "Point One": "Thesis exploring social interaction in Virtual Citizen Science and its impact on volunteer behaviours",
-        "Point Two": "Quantitatively analysed crowdsourced datasets with millions of classifications using Python and SQL",
-        "Point Three": "Worked with external companies to facilitate take-up and integration of design recommendations"
+        "First": "Thesis exploring social interaction in Virtual Citizen Science and its impact on volunteer behaviours",
+        "Second": "Quantitatively analysed crowdsourced datasets with millions of classifications using Python and SQL",
+        "Third": "Worked with external companies to facilitate take-up and integration of design recommendations"
     },
-    {
-        "Location": "University of Southampton",
-        "Degree": "MSc Web Science (1st Hons)",
+    {   "id": "ed-3",
+        "Heading": "University of Southampton",
+        "Subtitle": "MSc Web Science (1st Hons)",
         "Dates": "SEP 2013 - SEP 2014",
-        "Point One": "Computer science and computational social science modules including computational thinking, python programming, semantic web technologies, social networking technologies, web architecture",
-        "Point Two": "Training in statistics, quantitative/qualitative data analysis and mixed-methods research",
-        "Point Three": "Dissertation exploring content analysis of interactions in online amateur science communities"
+        "First": "Computer science and computational social science modules including computational thinking, python programming, semantic web technologies, social networking technologies, web architecture",
+        "Second": "Training in statistics, quantitative/qualitative data analysis and mixed-methods research",
+        "Third": "Dissertation exploring content analysis of interactions in online amateur science communities"
     },
     {
-        "Location": "University of Southampton",
-        "Degree": "BA Language Learning (2:1 Hons)",
+        "id": "ed-4",
+        "Heading": "University of Southampton",
+        "Subtitle": "BA Language Learning (2:1 Hons)",
         "Dates": "SEP 2009 - JUN 2013",
-        "Point One": "Portuguese and German language, socio- and theoretical linguistics",
-        "Point Two": "ERASMUS year abroad at University of Porto, Portugal including study of German and linguistics",
-        "Point Three": "Dissertation project on Portuguese as a lingua-franca in Africa"       
+        "First": "Portuguese and German language, socio- and theoretical linguistics",
+        "Second": "ERASMUS year abroad at University of Porto, Portugal including study of German and linguistics",
+        "Third": "Dissertation project on Portuguese as a lingua-franca in Africa"       
     }
 ]
