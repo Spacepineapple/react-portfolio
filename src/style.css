@@ -1,10 +1,10 @@
 /*Initialise variables for main colours*/
 :root {
     --primary-colour: #202231;
-    --secondary-colour: #E5E7E6;
+    --secondary-colour: #0F0E0E;
     --tertiary-colour: #FB3640;
-    --quarternary-colour: #EE6C4D;
-    --background-colour: #181A25;
+    --quarternary-colour: #00A5E0;
+    --background-colour: #FBFBFF;
     --heading-colour: #EF233C;
 }
 
@@ -322,7 +322,7 @@ ul {
 }
 
 nav h1 {
-    color: var(--secondary-colour);
+    color: var(--background-colour);
 }
 
 .nav-link:hover {

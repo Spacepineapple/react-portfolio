@@ -1,5 +1,4 @@
 import React from "react";
-import CommentForm from "../CommentForm";
 
 function Contact() {
     return (
@@ -12,8 +11,6 @@ function Contact() {
                         <li key="gitHub" className="contact-option">GitHub: <a href="https://github.com/Spacepineapple/">https://github.com/Spacepineapple/</a></li>
                         <li key="email" className="contact-option">Email: <a href="mailto:neal.t.reeves@gmail.com">neal.t.reeves@gmail.com</a></li>
                     </ul>
-                <p>Or add a comment using the form below:</p>
-                <CommentForm/>
             </section>
         </main>
     );

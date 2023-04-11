@@ -11,6 +11,7 @@ function CV() {
     return (
         <main>
             <section>
+                <h1>CV</h1>
                 <p>Below you can see my CV including a summary of my experience, education and skills to date. To access a downloadable copy, <a href="/Neal_Reeves_CV.pdf">click here</a> or feel free to visit my LinkedIn profile <a href="https://www.linkedin.com/in/neal-reeves-55a27774/">here</a>. To find out more about my projects, visit my portfolio using the tab above or find me on GitHub <a href="https://github.com/Spacepineapple/">here</a>.</p>
                 <div className="cv-area" id="cv">
                     <div className="cv-section" id="skills-section">
