@@ -1,20 +1,32 @@
 [
     {
         "id": "project-1",
-        "Heading": "InfoTravel (Group Project)",
-        "Subtitle": "https://github.com/Spacepineapple/infotravel-travel-information/",
-        "Dates": "JAN 2023 - FEB 2023",
-        "First": "Travel information service allowing travellers to view information on destinations with a single search",
-        "Second": "Gathers information from external APIs such as currency exchange, weather, news and more",
-        "Third": "Uses HTML, CSS, Bootstrap 5, Javascript, Google Fonts and External APIs"
-    },
-    {
-        "id": "project-2",
         "Heading": "React Portfolio (Personal Project)",
         "Subtitle": "https://github.com/Spacepineapple/react-portfolio",
+        "Deployed": "https://spacepineapple.github.io/react-portfolio/",
         "Dates": "MAR 2023",
         "First": "Designed, developed and deployed a portfolio using React to showcase portfolio projects",
         "Second": "Incorporates hooks and responsive design to deliver a smooth, reactive experience",
         "Third": "Uses HTML, CSS, Javascript, React, React Router, Node.js, Google Fonts"
+    },
+    {
+        "id": "project-2",
+        "Heading": "JustBuy (Group Project)",
+        "Subtitle": "https://github.com/Spacepineapple/just_buy",
+        "Deployed": "https://spacepineapple.github.io/just_buy/",
+        "Dates": "MAR 2023",
+        "First": "Developed responsive front-end of an e-commerce site with full cart functionality",
+        "Second": "Uses Redux to display and update cart state in real time and to maintain cart state between pages",
+        "Third": "Uses HTML, CSS, Bootstrap 5, Javascript, React, Redux, Redux Toolkit, Google Fonts and External APIs"
+    },
+    {
+        "id": "project-3",
+        "Heading": "InfoTravel (Group Project)",
+        "Subtitle": "https://github.com/Spacepineapple/infotravel",
+        "Deployed": "https://spacepineapple.github.io/infotravel/",
+        "Dates": "JAN 2023 - FEB 2023",
+        "First": "Travel information service allowing travellers to view information on destinations with a single search",
+        "Second": "Gathers information from external APIs such as currency exchange, weather, news and more",
+        "Third": "Uses HTML, CSS, Bootstrap 5, Javascript, Google Fonts and External APIs"
     }
 ]

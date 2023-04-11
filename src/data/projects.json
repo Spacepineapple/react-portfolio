@@ -1,6 +1,16 @@
 [
     {
         "id": "1",
+        "name": "JustBuy E-Commerce Site",
+        "image": "/react-portfolio/images/JustBuy.png",
+        "short": "A functional e-commerce website allowing shoppers to browse products, add them to their cart and check out as desired",
+        "description": "JustBuy was designed and built as a group project as part of an edX Front End Web Development bootcamp. It is an e-commerce website that allows users to look through a number of projects pulled from an external API. Using Redux, JustBuy features a fully functional cart that maintains state between pages and reloads. Users can add or remove products from their cart, while also increasing and decreasing the count of a given product. The nav bar features a functional indicator showing the current size of the cart while the checkout page calculates the subtitle of the cart in real-time. This page focuses on front-end functionality but features a dummy sign-up and login feature as well.",
+        "technologies": "HTML, CSS, JavaScript, React, Redux, BootStrap",
+        "deployed": "https://spacepineapple.github.io/just_buy/",
+        "repository": "https://github.com/Spacepineapple/just_buy"
+    },
+    {
+        "id": "2",
         "name": "InfoTravel Travel Information",
         "image": "/react-portfolio/images/InfoTravel.png",
         "short": "A travel information service bringing together useful information from a range of free APIs to support would-be travellers in choosing their next destination",
@@ -10,7 +20,7 @@
         "repository": "https://github.com/Spacepineapple/infotravel-travel-information"
     },
     {
-        "id": "2",
+        "id": "3",
         "name": "Snake",
         "image": "/react-portfolio/images/python_snake.png",
         "short": "A playable implementation of the classic game Snake with the functionality to store and retrieve the player's highest score",
@@ -20,7 +30,7 @@
         "repository": "https://github.com/Spacepineapple/python-snake"
     },
     {
-        "id": "3",
+        "id": "4",
         "name": "FlashCard App",
         "image": "/react-portfolio/images/flashcard_app.png",
         "short": "A flashcard app to support me with learning Japanese with functionality to keep track of and remove words after mastery",
@@ -30,7 +40,7 @@
         "repository": "https://github.com/Spacepineapple/flashcard-app"    
     },
     {
-        "id": "4",
+        "id": "5",
         "name": "Pong",
         "image": "/react-portfolio/images/pong.png",
         "short": "A fully functional, playable implementtion of the classic game Pong with support for 2 players",
@@ -38,16 +48,6 @@
         "technologies": "Python",
         "deployed": "This project has not been deployed, but can be accessed by downloading and running the files from the repository",
         "repository": "https://github.com/Spacepineapple/pong"
-    },
-    {
-        "id": "5",
-        "name": "Password Generator",
-        "image": "/react-portfolio/images/PasswordGenerator.png",
-        "short": "A password generator application that will generate a random password based on parameters selected by the user",
-        "description": "This is a password generator app. The user is able to select parameters for the generated password including the number of characters, as well as types of character from options including upper and lower case characters, numbers and special characters. A randomised password will then be generated and can easily be copied by clicking within the window. If the user fails to select character types for inclusion or does not select a valid length, no password will be generated and the user will be prompted to select again.",
-        "technologies": "HTML, CSS, JavaScript, BootStrap",
-        "deployed": "https://spacepineapple.github.io/password-generator/",
-        "repository": "https://github.com/Spacepineapple/password-generator"
     },
     {
         "id": "6",

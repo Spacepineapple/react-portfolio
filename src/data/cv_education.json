@@ -2,7 +2,7 @@
     {
         "id": "ed-1",
         "Heading": "edX",
-        "Degree": "Front End Web Development Bootcamp",
+        "Subtitle": "Front End Web Development Bootcamp",
         "Dates": "NOV 2022 - MAR 2023",
         "First": "Part-time bootcamp with 11 hours of weekly teaching as well as self-study, projects and assignments",
         "Second": "Topics including HTML, CSS, JavaScript, Node.js, jQuery and frameworks such as React",

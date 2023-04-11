@@ -269,9 +269,18 @@ em {
     color: var(--quarternary-colour);
 }
 
+nav a {
+    color: var(--heading-colour);
+}
+
 a {
     text-decoration: none;
-    color: var(--heading-colour);
+    color: var(--quarternary-colour);
+    font-weight: bold;
+}
+
+.projects a {
+    font-weight: normal;
 }
 
 ul {
@@ -686,5 +695,5 @@ h5 {
 }
 
 .contact-option {
-    color: var(--quarternary-colour);
+    color: var(--secondary-colour);
 }

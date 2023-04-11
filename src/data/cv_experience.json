@@ -4,8 +4,8 @@
         "Heading": "Multiverse",
         "Subtitle": "Data Fellowship Coach",
         "Dates": "MAY 2022 - PRESENT",
-        "First": "Provide tailored coaching to 40 professionals working towards level 4 data analytics apprenticeship",
-        "Second": "Advise, mentor and support professionals with projects and problems across the data science lifecycle",
+        "First": "Offer tailored coaching covering methods, tools and programming to 40 data analytics professionals",
+        "Second": "Collaborate with cross-functional teams as well as internal and external stakeholders at various levels",
         "Third": "Deliver interactive online workshops, bootcamps and hackathons covering topics such as statistics and quantitative analysis, SQL, Python, machine learning, business intelligence and visualisations"
     },
     {
@@ -14,8 +14,8 @@
         "Subtitle": "Research Associate",
         "Dates": "FEB 2020 - APR 2022",
         "First": "Performed research into trust in AI and engagement in crowdsourcing and online communities",
-        "Second": "Manipulated large-scale crowdsourced datasets programmatically using Python, SQL and AWS",
-        "Third": "Led €120,000 accelerator providing data analytics and research training for 6 organisations"
+        "Second": "Led €120,000 accelerator providing data analytics and research training for 6 organisations",
+        "Third": "Manipulated large-scale crowdsourced datasets programmatically using Python, SQL and AWS"
     },
     {
         "id": "exp-3",
